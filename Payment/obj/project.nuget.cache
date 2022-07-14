@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yn0AopExadFy1mVABoGZRQP/X3qVdp3pdOAZ3NHFK2/hxdJv56CldlnpHnIt6f4o1Ckg8S0y8I1erQrfsrd/xg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\impec\\Learning\\MicroserviceRabbitMq\\Payment\\Payment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\impec\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\impec\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\impec\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\impec\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\impec\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\impec\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

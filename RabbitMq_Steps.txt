@@ -1,0 +1,48 @@
+1.What is RabbitMQ and why use it?
+1.a.RabbitMQ describes itself as the most widely deployed open-source message broker.
+1.b.It is easy to implement and supports a wide variety of technologies like Docker, .NET or Go.
+1.c.It also offers plugins for monitoring, managing or authentication.
+1.d.I chose RabbitMQ because it is well known, quickly implemented and especially can be easily run using Docker.
+
+Installation process
+1.Erlang is a programming language with which the RabbitMQ server is built on. Since we are installing the RabbitMQ Server locally to our Machine (Windows 10), make sure that you install Erlang first.
+
+Download the Installer from here – https://www.erlang.org/downloads .
+
+2.Installing RabbitMQ as a Service in Windows
+We will be installing the RabbitMQ Server and a service within our Windows machine.
+
+3.Enabling RabbitMQ Management Plugin – Dashboard
+Now that we have our RabbitMQ Service installed at the sysyem level, we need to activate the Management Dashboard which by default is disabled. To do this, open up Command Prompt with Admin Rights and enter the following command
+
+Open cmd with admin rights:
+cd C:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.7\sbin
+rabbitmq-plugins enable rabbitmq_management
+net start RabbitMQ
+net stop RabbitMQ
+
+Now Navigate to http://localhost:15672/. Here is where you can find the management dashboard of RabbitMQ running.
+
+The default credentials are guest/guest . Use this to login to your dashboard.
+
+Download from here – https://www.rabbitmq.com/install-windows.html. I used the official installer. Make sure that you are an Admin.
+https://www.erlang.org/downloads
+https://www.rabbitmq.com/install-windows.html
+
+Steps:
+dotnet new webapi -o ApiGateway
+dotnet new webapi -o Order
+dotnet new webapi -o Payment
+Open cmd as Admin
+cd C:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.14\sbin
+rabbitmq-plugins enable rabbitmq_management
+net stop RabbitMQ
+net start RabbitMQ
+
+http://localhost:15672/ ...guest|guest
+
+
+
+
+
+
